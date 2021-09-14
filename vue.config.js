@@ -35,7 +35,8 @@ module.exports = {
           {
             src: "./img/icons/apple-touch-icon-192x192.png",
             sizes: "192x192",
-            type: "image/png"
+            type: "image/png",
+            "purpose": "maskable"
           },
           {
             src: "./img/icons/apple-touch-icon-384x384.png",
