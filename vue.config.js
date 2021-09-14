@@ -1,6 +1,5 @@
 module.exports = {
   pwa: {
-    appleMobileWebAppCache: "yes",
     manifestOptions: {
         name: "Promotion",
         short_name: "Promotion",
@@ -35,8 +34,7 @@ module.exports = {
           {
             src: "./img/icons/apple-touch-icon-192x192.png",
             sizes: "192x192",
-            type: "image/png",
-            purpose: "maskable"
+            type: "image/png"
           },
           {
             src: "./img/icons/apple-touch-icon-384x384.png",
