@@ -1,5 +1,6 @@
 module.exports = {
   pwa: {
+    appleMobileWebAppCache: "yes",
     manifestOptions: {
         name: "Promotion",
         short_name: "Promotion",
